@@ -258,8 +258,6 @@ node_modules/
 *.log
 
 build/
-dist/
-
 
 ### NotepadPP ###
 # Notepad++ backups #
