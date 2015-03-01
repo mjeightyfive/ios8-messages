@@ -1,0 +1,136 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><%= name %></title>
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#dba123">
+        <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+        <!-- <link rel="canonical" href="http://www.example.com/"> -->
+        <!-- inject:css -->
+        <!-- endinject -->
+        <script src="files/modernizr.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <!--[if lt IE 10]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+        <div class="phone" ng-controller="MainController">
+            <div class="screen">
+                <header>
+                    <div class="ios-ui">
+                        <div class="lhs">
+                            <span class="dots">•••••</span>
+                            <span class="network">3</span>
+                            <span class="connection">4G</span>
+                        </div>
+                        <div class="middle">
+                            <span class="time">4:52 pm</span>
+                        </div>
+                        <div class="rhs">
+                            <span class="battery-icon">
+                                <div class="inside"></div>
+                                <div class="tip"></div>
+                            </span>
+                            <span class="battery-percentage">22<span class="percent">%</span></span>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <span class="arrow"></span>
+                        <span class="lhs messages">Messages</span>
+                        <h2 class="middle">Olivia</h2>
+                        <span class="rhs details">Details</span>
+                    </div>
+                </header>
+                <div class="content-wrapper">
+                    <div class="content">
+                        <ul class="messages">
+                            <li>
+                                <p>Praesent porttitor nisl vel enim consectetur, vitae dictum ipsum condimentum.</p>
+                            </li>
+                            <li>
+                                <p>Sed convallis lorem non augue lobortis tincidunt.</p>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                                <p>Mauris viverra lacus et justo accumsan, et lobortis eros adipiscing.</p>
+                            </li>
+                            <li>
+                                <p>Integer dignissim metus id arcu pretium, ultrices tristique dolor vulputate.</p>
+                            </li>
+                            <li>
+                                <p>Sed ultricies tortor sagittis sapien dapibus commodo.</p>
+                            </li>
+                            <li>
+                                <p>Morbi nec erat sit amet dui aliquet pretium.</p>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                                <p>Mauris viverra lacus et justo accumsan, et lobortis eros adipiscing.</p>
+                            </li>
+                            <li>
+                                <p>Integer eget nisi euismod, fermentum ligula eget, faucibus nibh.</p>
+                            </li>
+                            <li>
+                                <p>Sed ultricies tortor sagittis sapien dapibus commodo.</p>
+                            </li>
+                            <li>
+                                <p>Morbi nec erat sit amet dui aliquet pretium.</p>
+                            </li>
+                            <li>
+                                <p>Praesent porttitor nisl vel enim consectetur, vitae dictum ipsum condimentum.</p>
+                            </li>
+                            <li>
+                                <p>Sed convallis lorem non augue lobortis tincidunt.</p>
+                            </li>
+                            <li>
+                                <p>Praesent porttitor nisl vel enim consectetur, vitae dictum ipsum condimentum.</p>
+                            </li>
+                            <li>
+                                <p>Sed convallis lorem non augue lobortis tincidunt.</p>
+                            </li>
+                            <li>
+                            </li>
+                            <li>
+                                <p>Mauris viverra lacus et justo accumsan, et lobortis eros adipiscing.</p>
+                            </li>
+                            <li>
+                                <p>Integer dignissim metus id arcu pretium, ultrices tristique dolor vulputate.</p>
+                            </li>
+                            <li>
+                                <p>Sed ultricies tortor sagittis sapien dapibus commodo.</p>
+                            </li>
+                            <li>
+                                <p>Morbi nec erat sit amet dui aliquet pretium.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- firefox svg blurring trick -->
+        <svg id="svg-image-blur">
+        <filter id="blur-effect">
+        <feGaussianBlur stdDeviation="10" />
+        </filter>
+        </svg>
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
+</html>
