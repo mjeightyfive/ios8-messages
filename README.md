@@ -1,6 +1,6 @@
-# init-ng
+# ios8-messages
 
-Initial files for creating a small AngularJS app.
+iOS8 messages.
 
 ## Install
 
@@ -9,13 +9,6 @@ Initial files for creating a small AngularJS app.
 # Usage
 
 run `gulp` for development mode or `gulp --live` to build optimised version
-
-## Features
-- browser-sync
-- uncss
-- css autoprefixing
-- live reload
-- etc.
 
 ## License
 

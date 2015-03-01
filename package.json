@@ -31,7 +31,7 @@
     "sinon": "^1.12.2",
     "streamqueue": "^0.1.3"
   },
-  "name": "init-ng",
+  "name": "ios8-messages",
   "author": "@mjeightyfive",
   "version": "0.0.1",
   "private": true,
